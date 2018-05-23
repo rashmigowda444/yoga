@@ -1,0 +1,12 @@
+.footer_text{
+    color: white;font-size:14px;
+}
+.foot{
+    height:80px;width:100%;position:fixed;left:0;bottom:0;margin-bottom:-10px;
+}
+.ullink{
+    padding-left:20px;
+}
+.nav-item{
+    margin-right:10px;
+}

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+h6,h5,h4,h3,h2,h1{
+    font-family: 'Jura', sans-serif;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+::-webkit-input-placeholder {
+    font-family: 'Quicksand', sans-serif;
+}
+:-moz-placeholder {
+    font-family: 'Quicksand', sans-serif;
+}
+::-moz-placeholder {
+    font-family: 'Quicksand', sans-serif;
+}
+:-ms-input-placeholder {
+    font-family: 'Quicksand', sans-serif;
+}
+.body{
+    overflow-x: hidden;
+}
+html{
+    position:relative;min-height:100%;
+}

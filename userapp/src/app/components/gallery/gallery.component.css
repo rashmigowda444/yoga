@@ -1,0 +1,13 @@
+.bg{
+    margin-top:-20px;margin-left:-15px;position:absolute;
+   }
+
+.thought_about{        
+ margin-left:80px;height:230px;width: 87%;opacity: 0.8;color:white;font-weight: bold;
+font-size: 35px;padding:40px;background: linear-gradient(rgba(85, 77, 77, 0.5), rgba(71, 69, 69, 0.5));
+ position:relative;margin-top:60px;}   
+
+.thought_author{       
+ float:right;        
+font-family: 'Tangerine', cursive;font-size: 46px;    
+}
