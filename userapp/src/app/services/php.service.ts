@@ -12,7 +12,7 @@ export class PhpService {
   constructor(private _http:Http) { }
 
   getServices(){
-    return this._http.get('http://localhost/yoga/userapp/src/php/services.php')
+    return this._http.get('http://localhost/php/services.php')
       .map(res=>{
         // console.log(res);
         return res.json();
