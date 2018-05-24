@@ -13,29 +13,33 @@ font-family: 'Tangerine', cursive;font-size: 46px;
 }
 
 .founder_info{
-    margin-top:-320px;
+    margin-top:-280px;
     margin-left:480px;
     height:50px;
-    width: 57%;
+    width: 50%;
     opacity: 1;
     color:white;
     font-weight: bold;
     font-size: 35px;
-    padding:40px;
-    background: linear-gradient(rgba(85, 77, 77, 0.5), rgba(71, 69, 69, 0.5));
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:20px;
+    background: linear-gradient(to left, rgba(255,155,0,0), rgba(255,160,00,1));
     position:relative;
 }
 .founder_info2{
-    margin-top:-210px;
+    margin-top:-180px;
     margin-left:480px;
     height:50px;
-    width: 40%;
+    width: 77%;
     opacity: 1;
     color:white;
     font-weight: bold;
     font-size: 35px;
-    padding:40px;
-    background: linear-gradient(rgba(85, 77, 77, 0.5), rgba(71, 69, 69, 0.5));
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:20px;
+    background: linear-gradient(to left, rgba(255,155,0,0), rgba(255,160,00,1));
     position:relative;
 }
 .rowover{
