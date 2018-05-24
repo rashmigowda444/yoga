@@ -4,11 +4,14 @@
 }
 
     .thought_about{
-        margin-top:-380px;
+      -webkit-animation: slideIn 8s forwards;
+  -moz-animation: slideIn 8s forwards;
+  animation: slideIn 8s forwards;
+        margin-top:-400px;
         margin-left:80px;
         height:315px;
         width: 87%;
-        opacity: 0.8;
+        opacity: 1;
         color:white;
         font-weight: bold;
         font-size: 35px;
@@ -21,6 +24,31 @@
         font-family: 'Tangerine', cursive;
         font-size: 46px;
         padding-bottom: 25px;
+    }
+
+    @-webkit-keyframes slideIn {
+      0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    @-moz-keyframes slideIn {
+      0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
     }
     .rowover{
         padding-left:30px;padding-right:30px;
