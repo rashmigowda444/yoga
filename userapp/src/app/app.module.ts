@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
+import { HttpModule } from '@angular/http';
 import { FormsModule ,ReactiveFormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -13,6 +14,8 @@ import { FounderComponent } from './components/founder/founder.component';
 import { ServicesComponent } from './components/services/services.component';
 import { EventsComponent } from './components/events/events.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+
+import { PhpService } from './services/php.service';
 
 const appRoutes:Routes=[
   {path:'', component:HomeComponent},
@@ -42,9 +45,10 @@ const appRoutes:Routes=[
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [PhpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

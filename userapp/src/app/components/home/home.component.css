@@ -82,41 +82,17 @@
       margin-left:30px;margin-right:30px;
       text-align:justify;
     }
-    /* body, html {
+    carousel-inner img {
+      width: 100%;
       height: 100%;
   }
-  
-  .paral {
 
-    min-height: 600px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    }
-
-    .paral p {
-      font-size: 24px;
-      color:#f5f5f5;
-      text-align: center;
-      line-height: 60px;
-      }
-       
-      /* Heading for Parallax Section */ 
-      /* .paral h1 {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 60px;
-      text-align: center;
-      padding-top: 60px;
-      line-height: 100px;
-      }
-    .paralsec {
-      background-image: url("assets/images/vivekananda.jpg");
-      }
-
-      .paralsec1 {
-        background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");}
-         
-        .paralsec2 {
-        background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
-        }
-        .jumbotron{margin-bottom: 0;} */ 
+  .thought_about{        
+   height:230px;width: 94%;color:white;font-weight: bold;
+   font-size: 30px;background:url('assets/images/testban.jpg')no-repeat;
+    position:relative;margin-top:60px;margin-left:30px;padding-left:500px;padding-top:70px;}   
+   
+   .thought_author{       
+    margin-left:350px;   
+   font-family: 'Tangerine', cursive;font-size: 33px;    
+   }
