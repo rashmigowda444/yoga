@@ -12,7 +12,7 @@ export class PhpService {
   constructor(private _http:Http) { }
 
   getServices(){
-    return this._http.get('http://localhost/php/services.php')
+    return this._http.get('http://localhost/php1/services.php')
       .map(res=>{
         // console.log(res);
         return res.json();
@@ -26,4 +26,8 @@ export class PhpService {
   //     });
   // }
 
+  onSubmit(info){
+    return this._http.post('http://localhost/php1/insert.php', info)
+    .map(()=>"");
+  }
 }
